@@ -152,14 +152,19 @@ media quaries
     
 }
 @media only screen and (max-width:688px) {
+    .populer-collection{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width:688px) {
  .container{
      grid-template-columns: repeat(1,1fr);
      width: 370px;
  }   
 
- .last-title{
-    grid-template-columns: repeat(1,1fr);
-    width: 370px;
+.apple-man img{
+    display: none;
+}
  }
  .last-part div{
     grid-template-columns: repeat(1,1fr);
@@ -169,8 +174,8 @@ media quaries
 /* mobile devices end */
 -----------------------------------------
 /* extra partt */
-.last-image img{
-    width: 200px;
+.apple-man img{
+    width: 300px;
     height: 250px;
 }
 .last-title{
