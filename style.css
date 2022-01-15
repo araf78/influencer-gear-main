@@ -1,7 +1,15 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body{
+    font-family: 'Poppins', sans-serif;
     background-color: white;
 }
+.container{
+    padding: 33px;
+}
 .start-influencer{
+    padding-top: 60px;
     width: 582px;
     height: 270px;
 }
@@ -14,8 +22,10 @@ body{
     background-color: rgb(194, 31, 31);
    text-align: center;
    border-radius: 10px;
+   font-size: 20px;
+   font-weight: 500;
 }
-#prbook-id{
+#prebook-id{
     color: white;
     text-decoration: none;
     width: 196px;
