@@ -8,10 +8,32 @@ body{
 .container{
     padding: 33px;
 }
+.section-title:hover{
+    color:mediumblue;
+}
+.section-title{
+    font-size: 24px;
+   margin-bottom: 60px;
+}
 .start-influencer{
-    padding-top: 60px;
+    
     width: 582px;
     height: 270px;
+    
+}
+/* .start-influencer:hover{
+    border: 3px solid blue;
+}
+.top-influencer-img:hover{
+    border: 3px solid blue;
+} */
+.top-influencer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.top-influencer-img{
+    width: 440px;
+    height: 414px;
 }
 
 .prebook-now{
@@ -31,4 +53,41 @@ body{
     width: 196px;
     height: 44px;
     background-color: rgb(194, 31, 31);
+}
+
+/*-------------------------------
+ style population collections
+------------------------------- */
+.section-title-populer{
+    text-align: center;
+    font-size: 28px;
+    color: saddlebrown;
+}
+.populer-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.collection{
+    width: 329px;
+    height: 476px;
+}
+.collections .collection img{
+    width: 300px;
+    height: 256px;
+}
+.collections-title .name-bar{
+    font-size: 28px;
+}
+.collections-title .amount{
+    font-size: 24px;
+}
+.collections-title .collection-rating .info{
+    color: lightslategray;
+    font-size: 14px;
+}
+.fa-star{
+    color: goldenrod;
+}
+.colection-rating span{
+    margin-left: 10px;
 }
